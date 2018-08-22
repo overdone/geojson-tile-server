@@ -1,0 +1,35 @@
+{
+  "name": "geojson-tile-server",
+  "version": "0.0.1",
+  "description": "GeoJson Split Tile Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "nodemon --inspect index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/overdone/geojson-tile-server.git"
+  },
+  "keywords": [
+    "Tiles",
+    "GeoJson"
+  ],
+  "author": "Anton Ushakov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/overdone/geojson-tile-server/issues"
+  },
+  "homepage": "https://github.com/overdone/geojson-tile-server#readme",
+  "dependencies": {
+    "geojson-vt": "^3.2.0",
+    "koa": "^2.5.2",
+    "koa-router": "^7.4.0",
+    "lru-cache": "^4.1.3",
+    "uuid": "^3.3.2",
+    "vt-pbf": "^3.1.1"
+  },
+  "devDependencies": {
+    "nodaemon": "0.0.5"
+  }
+}
